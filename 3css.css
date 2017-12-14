@@ -1,0 +1,65 @@
+body, h1,h2,h3,h4,h5,h6 {
+	font-family: Raleway, sans serif;
+}
+
+body, html {
+	height: 100%;
+	line-height: 1.8;
+}
+
+.bgimg-1 {
+	background-position: center;
+	background-size: cover;
+	background-image: url("imgs/bg2.png");
+	min-height: 100%;
+	-webkit-animation-name: bgfade;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-timing-function: ease-in;
+    animation-name: bgfade;
+    animation-duration: 29s;
+    animation-timing-function: ease-in;
+    
+
+}
+
+@-webkit-keyframes bgfade {
+    0%   {background-image: url("imgs/bg2.png"); -webkit-animation-delay: 10s}
+    25%  {background-image: url("imgs/bg3.png"); -webkit-animation-delay: 20s}
+    50%  {background-image: url("imgs/bg4.png"); -webkit-animation-delay: 30s}
+    75%  {background-image: url("imgs/bg3.png"); -webkit-animation-delay: 40s}
+    100% {background-image: url("imgs/bg2.png"); -webkit-animation-delay: 50s}
+}
+
+@keyframes bgfade {
+    0%   {background-image: url("imgs/bg2.png"); animation-delay: 10s}
+    25%  {background-image: url("imgs/bg3.png"); animation-delay: 20s}
+    50%  {background-image: url("imgs/bg4.png"); animation-delay: 30s}
+    75%  {background-image: url("imgs/bg3.png"); animation-delay: 40s}
+    100% {background-image: url("imgs/bg2.png"); animation-delay: 50s}
+}
+
+
+.textimg {
+
+	 height: auto;
+	 max-width: 100%;
+}
+
+.w3-bar .w3-button {
+	padding: -16px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    float: right;
+	margin-right: 90px;
+}
+
+.underpic {
+
+    border-style:   ;
+    max-width: 100%;
+    height: auto;
+    min-height: 100%;
+}
